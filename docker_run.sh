@@ -14,7 +14,7 @@ docker run --rm -it \
   -v /run/user/$(id -u):/run/user/$(id -u) \
   -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
   -v $HOME/.Xauthority:/root/.Xauthority:ro \
-  -v /home/buraks/PHD:/data:rw \
-  buraks1/lio-sam:latest \
+  -v /home/buraks/workspace:/data:rw \
+  buraks1/ros-jazzy-custom:liosam \
   bash
 
