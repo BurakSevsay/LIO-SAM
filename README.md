@@ -1,5 +1,12 @@
 # LIO-SAM
 
+RUN:
+roslaunch lio_sam run.launch
+rosbag play your-bag.bag -r 3
+
+Note: 
+Use docker: buraks1/ros-noetic-custom:liosam
+
 **A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**
 
 <p align='center'>

@@ -1,0 +1,1 @@
+./run_one_bag_ntuviral.sh /data/lioSam_ros1/outputs /dataset/NTU_viral_dataset /data/lioSam_ros1/src/LIO-SAM eee_01 false true 450 0 0 0.75 -1
